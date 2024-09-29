@@ -22,6 +22,9 @@
         <script src="<?php echo base_url; ?>Assets/demo/chart-bar-demo.js"></script> -->
         <script src="<?php echo base_url; ?>Assets/js/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="<?php echo base_url; ?>Assets/js/datatables-simple-demo.js"></script>
+        <script src="<?php echo base_url; ?>Assets\demo\datatables-demo.js"></script>
+        <script src="<?php echo base_url; ?>Assets\js\jquery.dataTables.min.js"></script>
+        <script src="<?php echo base_url; ?>Assets\js\dataTables.bootstrap4.min.js"></script>
         <script>
         const base_url = "<?php echo base_url;?>";
         </script>
