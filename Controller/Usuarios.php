@@ -8,6 +8,12 @@ class Usuarios extends Controller{
     {
         $this->views->getview($this, "index");
     }
+     public function listar()
+    {
+        $data = $this->model->getUsuarios();
+        echo json_encode($data, JSON_UNESCAPED_UNICODE);
+        die();
+    }
     public function validar()
     {
         if(empty($_POST['usuario']) || empty($_POST['clave'])) {
